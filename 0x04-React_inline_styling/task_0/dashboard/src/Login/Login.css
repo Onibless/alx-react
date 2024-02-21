@@ -1,17 +1,11 @@
 :root {
-	--primary-color: #E11D3F;
-	font: 18px Helvetica, Arial, sans-serif;
-}
-
-.App {
-	background-color: #ffffff;
-	display: flex;
-	flex-direction: column;
+    --holberton-red: #e1484c;
 }
 
 .App-body {
-	display: flex;
-	flex-direction: column;
-	margin: 3rem;
-	min-height: 50vh;
+    padding: 36px 24px;
+}
+
+.App-body input {
+    margin: 0 16px 0 8px;
 }
